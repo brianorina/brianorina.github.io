@@ -1,96 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Brian Nyakambi | AI Engineer Portfolio</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f4f4f4;
-      color: #333;
-    }
-    header {
-      background-color: #222;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-    section {
-      padding: 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-    h2 {
-      color: #444;
-    }
-    .project {
-      background: #fff;
-      padding: 15px;
-      margin-bottom: 15px;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.05);
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      background: #222;
-      color: white;
-      margin-top: 30px;
-    }
-    a {
-      color: #0066cc;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Brian Orina Nyakambi | AI Engineer and Data Enthusiast" />
+  <title>Brian Orina | AI Engineer</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="/favicon.png">
 </head>
-<body>
-  <header>
-  <h1>Brian Nyakambi</h1>
-  <img src="git_linkedin_profile.jpg" alt="Brian Nyakambi" 
-       style="width: 250px; height: 250px; border-radius: 50%; margin: 10px auto 0; display: block;">
-  <p>AI Engineer | Python | Machine Learning | NLP | LLMs</p>
-</header>
-  <section>
-    <h2>About Me</h2>
-    <p>Hi, I’m Brian Nyakambi, an AI Engineer passionate about building intelligent systems using Python, Machine Learning, and NLP. I’m currently expanding my skills in LLMs and deep learning, with a strong interest in solving real-world problems.</p>
-  </section>
-
-  <section>
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>MNIST Digit Classifier</h3>
-      <p>Built a convolutional neural network using TensorFlow/Keras to classify handwritten digits from the MNIST dataset.</p>
-      <a href="https://github.com/brianorina/mnist-digit-classifier">View on GitHub</a>
+<body class="bg-gray-100 text-gray-800">
+  <header class="bg-white shadow">
+    <div class="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center">
+      <h1 class="text-3xl font-bold">Brian Orina</h1>
+      <nav>
+        <a href="#about" class="mx-2 text-blue-600 hover:underline">About</a>
+        <a href="#projects" class="mx-2 text-blue-600 hover:underline">Projects</a>
+        <a href="#skills" class="mx-2 text-blue-600 hover:underline">Skills</a>
+        <a href="#contact" class="mx-2 text-blue-600 hover:underline">Contact</a>
+      </nav>
     </div>
-    <div class="project">
-      <h3>Spam vs Not Spam Classifier</h3>
-      <p>Implemented a machine learning pipeline for detecting spam messages using NLP techniques and scikit-learn.</p>
-      <a href="https://github.com/brianorina/spam-detector">View on GitHub</a>
+  </header>
+
+  <section class="text-center py-20 bg-gradient-to-r from-blue-500 to-indigo-600 text-white">
+    <h2 class="text-4xl font-bold mb-4">AI Engineer & Data Science Enthusiast</h2>
+    <p class="text-xl mb-6">Building intelligent solutions with code and curiosity</p>
+    <div class="space-x-4">
+      <a href="#contact" class="bg-white text-blue-600 px-6 py-2 rounded-full font-semibold hover:bg-gray-200">Contact Me</a>
+      <a href="https://linkedin.com/in/yourlinkedin" class="underline">LinkedIn</a>
+      <a href="https://github.com/brianorina" class="underline">GitHub</a>
     </div>
   </section>
 
-  <section>
-    <h2>Skills</h2>
-    <ul>
-      <li>Programming: Python, R, C++, JavaScript</li>
-      <li>Machine Learning: Scikit-learn, TensorFlow, Keras</li>
-      <li>Deep Learning: CNNs, RNNs, Transformers</li>
-      <li>Tools: Git, Jupyter, VS Code, Streamlit</li>
-      <li>Natural Language Processing & LLMs</li>
-    </ul>
+  <section id="about" class="max-w-4xl mx-auto py-16 px-4">
+    <h3 class="text-2xl font-bold mb-4">About Me</h3>
+    <p class="text-lg leading-relaxed">
+      I am Brian Orina Nyakambi, currently pursuing a Master's in Artificial Intelligence in Valencia, Spain. I'm passionate about AI, data science, and cybersecurity. My journey has taken me through hands-on experience at the UNICC, educational mentorship roles, and continuous learning in Python, machine learning, and cloud technologies.
+    </p>
   </section>
 
-  <section>
-    <h2>Contact</h2>
-    <p>Email: orinabrian100@gmail.com</p>
-    <p>GitHub: <a href="https://github.com/brianorina">github.com/brianorina</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/brian-nyakambi-15842b170">Brian Nyakambi</a></p>
+  <section id="skills" class="bg-white py-16 px-4">
+    <div class="max-w-4xl mx-auto">
+      <h3 class="text-2xl font-bold mb-4">Skills</h3>
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <div class="bg-gray-100 p-4 rounded shadow">Python</div>
+        <div class="bg-gray-100 p-4 rounded shadow">TensorFlow/Keras</div>
+        <div class="bg-gray-100 p-4 rounded shadow">SQL</div>
+        <div class="bg-gray-100 p-4 rounded shadow">Power BI</div>
+        <div class="bg-gray-100 p-4 rounded shadow">Git & GitHub</div>
+        <div class="bg-gray-100 p-4 rounded shadow">Microsoft Azure</div>
+      </div>
+    </div>
   </section>
 
-  <footer>
-    <p>&copy; 2025 Brian Nyakambi. All rights reserved.</p>
+  <section id="projects" class="max-w-4xl mx-auto py-16 px-4">
+    <h3 class="text-2xl font-bold mb-4">Projects</h3>
+    <div class="space-y-6">
+      <div class="p-4 bg-white rounded shadow">
+        <h4 class="font-semibold text-xl">MNIST Digit Classifier</h4>
+        <p>Used CNN and TensorFlow to build a handwritten digit recognizer with 98% accuracy.</p>
+        <a href="https://github.com/brianorina/mnist-classifier" class="text-blue-600 underline">View on GitHub</a>
+      </div>
+      <div class="p-4 bg-white rounded shadow">
+        <h4 class="font-semibold text-xl">Spam Detection App</h4>
+        <p>Developed an NLP-based spam classifier using Scikit-learn and Streamlit.</p>
+        <a href="https://github.com/brianorina/spam-detector" class="text-blue-600 underline">View on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="bg-gray-200 py-16 px-4">
+    <div class="max-w-4xl mx-auto text-center">
+      <h3 class="text-2xl font-bold mb-4">Get in Touch</h3>
+      <p>Email: <a href="mailto:brianorina@gmail.com" class="text-blue-600 underline">brianorina@gmail.com</a></p>
+      <p>Location: Valencia, Spain</p>
+    </div>
+  </section>
+
+  <footer class="bg-white py-6 text-center text-sm text-gray-600">
+    © 2025 Brian Orina Nyakambi. All rights reserved.
   </footer>
 </body>
 </html>
